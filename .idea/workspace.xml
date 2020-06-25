@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f459d52b-3fa1-43c0-a8c0-90a88a3aa6d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todos.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,21 +65,29 @@
       <workItem from="1583410836830" duration="6462000" />
       <workItem from="1583843390522" duration="32000" />
       <workItem from="1583917032651" duration="608000" />
-      <workItem from="1593080939916" duration="2270000" />
+      <workItem from="1593080939916" duration="3319000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1593083371072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593083371072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#ESLint" timestamp="1583063361527">
+    <state x="390" y="7" key="CommitChangelistDialog2" timestamp="1593083370218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1583063361527" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583917638760">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583917638760" />
+    <state x="390" y="7" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1593083370218" />
   </component>
 </project>
