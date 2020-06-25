@@ -27,21 +27,24 @@ state={
     return(
         <div>
             <div className="row " key={this.props.todo.id}>
-                <div className="col-10 ">
+                <div className="col-md-9 col-sm-8">
                     <p >- {this.props.todo.content} </p>
                 </div>
                 <div>
                     {console.log(this.props.todo.content)}
                 </div>
-                <FontAwesomeIcon className="fontIcon " icon={faCheck} color='#23df23' size='10rem'
+                <div className="col-md-3 col-sm-3">
+                <FontAwesomeIcon className="fontIcon mr-2 " icon={faCheck} color='#23df23' size='10rem'
                                  onClick={()=>{this.props.doneTodo(this.props.todo.id)}} style={{cursor: 'pointer'}} />
 
-                <FontAwesomeIcon className="fontIcon" icon={faEdit} color='white' size='10rem'
+                <FontAwesomeIcon className="fontIcon mr-2" icon={faEdit} color='white' size='10rem'
                                  onClick={()=>{this.Flag()}} style={{cursor: 'pointer'}} />
 
-                <FontAwesomeIcon className="fontIcon mr-3" icon={faTrash} color='red' size='10rem'
+                <FontAwesomeIcon className="fontIcon mr-2" icon={faTrash} color='red' size='10rem'
                                  onClick={()=>{this.props.deleteTodo(this.props.todo.id)}} style={{cursor: 'pointer'}} />
-            </div>
+                </div>
+                </div>
+
         </div>
     )
     }
