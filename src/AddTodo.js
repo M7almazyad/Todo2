@@ -29,10 +29,11 @@ class AddTodo extends Component{
         return (
             <div>
                 <form  onSubmit={this.handleSubmit}>
-                    <input className="mr-auto" type="text" onChange={this.handleChange} value={this.state.content}/>
+                    <div className="row" >
+                    <input className="ml-2 col-8" type="text" onChange={this.handleChange} value={this.state.content}/>
                     {/*<a className="waves-effect waves-light btn blue"onClick={this.handleSubmit} >Add</a>*/}
-                    <button className=" ml-2">Add</button>
-
+                    <button className=" ml-2 " id="add">Add</button>
+                    </div>
                 </form>
             </div>
         )

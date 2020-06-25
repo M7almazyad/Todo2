@@ -27,13 +27,13 @@ state={
     return(
         <div>
             <div className="row " key={this.props.todo.id}>
-                <div className="col-md-9 col-sm-8">
+                <div className="col-7 ">
                     <p >- {this.props.todo.content} </p>
                 </div>
                 <div>
                     {console.log(this.props.todo.content)}
                 </div>
-                <div className="col-md-3 col-sm-3">
+                <div className="col-5  text-right">
                 <FontAwesomeIcon className="fontIcon mr-2 " icon={faCheck} color='#23df23' size='10rem'
                                  onClick={()=>{this.props.doneTodo(this.props.todo.id)}} style={{cursor: 'pointer'}} />
 
